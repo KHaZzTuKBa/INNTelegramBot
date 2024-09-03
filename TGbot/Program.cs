@@ -71,7 +71,7 @@ namespace Program
                             {
                                 foreach (var inn in innNumbers)
                                 {
-                                    _lastAction += inn;
+                                    _lastAction += inn + " ";
 
                                     if (Regex.IsMatch(inn, @"^\d{10}|\d{12}$"))
                                     {
